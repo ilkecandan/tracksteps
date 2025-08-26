@@ -1,23 +1,21 @@
 {
-  "name": "StepTracker - Daily Step Counter",
-  "short_name": "StepTracker",
-  "description": "A beautiful PWA to track your daily steps",
-  "start_url": "/",
+  "name": "Step Tracker",
+  "short_name": "Steps",
+  "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#f5f7fa",
-  "theme_color": "#4CAF50",
-  "orientation": "portrait",
+  "background_color": "#f9f9f9",
+  "theme_color": "#4a90e2",
+  "description": "Track your daily steps with a modern PWA",
   "icons": [
     {
-      "src": "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👣</text></svg>",
+      "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/svg+xml"
+      "type": "image/png"
     },
     {
-      "src": "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👣</text></svg>",
+      "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/svg+xml"
+      "type": "image/png"
     }
-  ],
-  "categories": ["health", "fitness", "lifestyle"]
+  ]
 }
